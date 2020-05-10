@@ -1,0 +1,18 @@
+include <iostream>
+using namespace std;
+
+int main()
+{
+    double a, b, productOfNumbers;
+    cout << "Enter two numbers: ";
+
+    // Stores both floating point numbers in variable a and b respectively
+    cin >> a >> b;
+ 
+    // Performs multiplication and stores the result in variable productOfNumbers
+    productOfNumbers = a * b;  
+
+    cout << "Product = " << productOfNumbers;    
+    
+    return 0;
+}
